@@ -1,0 +1,33 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+#header{
+    font-size:34px;
+    background-color: rgba(208, 255, 0, 0.674);
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+#inp{
+    width: 600px;
+    display: block;
+    margin: 12px auto;
+    height: 50px;
+    border-radius: 60px;
+    text-align: center;
+}
+#btnsubmit{
+    margin: 23px auto;
+    display: block;
+}
+#btnremove{
+    display: block; 
+    margin: auto;
+}
+.task{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

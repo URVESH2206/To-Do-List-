@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-do list</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="container" ng-app="myApp" ng-controller="todoCtrl">
+	<h2 id="header">My To-do List</h2>
+
+	<!-- to-do form -->
+		<form id="form" ng-submit="todoAdd()">
+			<!-- for taking input from user -->
+			<input id="inp" type="text" ng-model="todoInput" size="50" placeholder="Add Note Here">
+			<!-- submit button to add input value in object -->
+			<input id="btnsubmit" class="btn btn-success" type="submit" value="Add New">
+		</form>
+		<!-- reatrive note from object -->
+			<div ng-repeat="note in todoList">
+				<center><input type="checkbox" ng-model="note.done"><span class="task" ng-bind="note.todoText"></span></center>
+			</div>
+			<!-- Remove Button -->
+			<!-- delete note from object -->
+		<button id="btnremove" class="btn btn-danger" ng-click="remove()">Remove marked</button>	
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<script src="app.js"></script>
+</body>
+</html>
