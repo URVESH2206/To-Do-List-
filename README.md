@@ -33,5 +33,5 @@ Home page of my website(to-do list website).
 # Resource of the project
 
 
-![azur6](https://user-images.githubusercontent.com/83448942/164961235-0737d298-f206-4fcf-9e3e-6e9094357c4e.png)
+![azur6](https://user-images.githubusercontent.com/109030510/182035895-2714174d-1d35-4952-8f5a-cd021b260c96.png)
 
