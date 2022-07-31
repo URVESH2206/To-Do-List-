@@ -26,7 +26,7 @@ Home page of my website(to-do list website).
 # Deploy project 
 
 
-![azur5](https://user-images.githubusercontent.com/83448942/164961222-35d48e2b-e84f-4822-a3df-df97099278b2.png)
+![azur5](https://user-images.githubusercontent.com/109030510/182035654-c1a0e8a0-8843-422d-bb57-79614301e28c.png)
 
 
 
